@@ -1,0 +1,171 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+    background-color: #fff;                                         /*background color der page*/
+}
+
+.all-div-wrapper {
+     margin: 0 auto;
+     width: 1000px;
+}
+
+.h1-box {
+    width: 100%;                                                            /*creating a seeable box*/
+    height: 80px;
+    background-color: #313236
+}
+
+.H1-Index {
+    line-height: 80px;                                                      /*platz zwischen den zeilen*/ 
+    color: #ff6277;                                                 /*farbe + hexa / rgb / rgba (a = transparency) code*/
+    font-family: 'Exo', sans-serif;                                   /*font*/
+    font-size: 30px;                                                  /*font grösse*/
+    font-style: none;                                               /*kursiv etc*/
+    font-weight: 500;                                                 /*font breite*/
+    text-align: left;                                               /*textausrichtung*/
+    text-decoration: none;                                            /*underline usw*/
+    text-indent: none;                                                /*einrückung der ersten zeile eines textes; kann bei vielen aneinander gereiten texten die lesbarkeit steigern*/
+    text-transform: none;                                             /*transformierung z. B. anfangsbuchstaben gross oder alles gross; klein*/   
+    letter-spacing: none;                                             /*wieviel platz zwischen Buchstaben; grösser = bessere lesbarkeit*/
+}
+
+.page-h2 {
+    line-height: 80px;
+    color: #282d4e; 
+    font-family: 'Exo', sans-serif;  
+    font-size: 26px;  
+    text-align: left; 
+    font-weight: 400;    
+}
+
+nav {
+    width: 100%;                                                            /*creating a seeable box*/
+    height: 80px;
+    background-color: #505258;
+}
+
+ul {
+    margin-left: 50px;
+}     
+
+ul li {
+    list-style: none;
+    display: block;
+    float: left;
+    line-height: 80px;
+}
+
+.nav-a {
+    font-family: 'Exo', sans-serif;    
+    color: #c0c0c0;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0 30px;                                                        /*platz zwischen worten*/
+}
+
+.nav-a:hover {
+    color: #ff0022;
+}
+
